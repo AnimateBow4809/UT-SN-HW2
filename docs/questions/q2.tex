@@ -10,10 +10,26 @@
 			the station (independently of other nodes) is as small as possible —in other words,
 			the maximum distance from any node to the station should be minimized.
 			\answer{
-				To determine the optimal node for placing the broadcast station, we use \textbf{closeness centrality}, 
+				To determine the optimal location for the radio station, we identify the \textbf{Graph Center} by computing the \textbf{Eccentricity} of each node. The eccentricity of a node is the distance to the farthest node in the network; minimizing this ensures that the maximum travel time for a broadcast signal is as small as possible.  
+				
+				The eccentricity vector $\epsilon$ for nodes $1$ through $15$ is:
+				\[
+				\epsilon = \begin{bmatrix} 
+					4.0 \\ 3.0 \\ 4.0 \\ 5.0 \\ 4.0 \\ 4.0 \\ 4.0 \\ 5.0 \\ 4.0 \\ 4.0 \\ 4.0 \\ 5.0 \\ 3.0 \\ 4.0 \\ 5.0
+				\end{bmatrix}
+				\]
+				
+				
+				The minimum eccentricity is $\min(\epsilon) = \mathbf{3.0}$, which occurs at \textbf{Node 2} and \textbf{Node 13}. Therefore, placing the radio station at either of these nodes ensures that every other node is reachable within at most 3 hops, providing the most efficient coverage across the network.
+			}
+			
+			\item  The mayor wants to choose a node for a bookstore so that the sum of distances from 
+			all residents to that node is minimized.
+			\answer{
+				To determine the optimal node for placing the bookstore, we use \textbf{closeness centrality}, 
 				which measures how close a node is on average to all other nodes in the graph. 
-				By choosing the node with the highest closeness centrality, we ensure that the station can reach 
-				all other nodes as quickly as possible on average.
+				By choosing the node with the highest closeness centrality, we ensure that the nodes can reach 
+				the bookstore as quickly as possible on average.
 				
 				The formula for closeness centrality of a node $v$ is:
 				\[
@@ -23,16 +39,16 @@
 				
 				For our 15-node graph, the closeness centrality values are:
 				
-			\[
-			\begin{bmatrix}
-				0.4667 & 0.4667 & 0.4667 & 0.4 & 0.4516 \\
-				0.4516 & 0.4667 & 0.4242 & 0.4516 & 0.4375 \\
-				0.4118 & 0.4 & 0.5185 & 0.3684 & 0.2745
-			\end{bmatrix}
-			\]
-			
+				\[
+				\begin{bmatrix}
+					0.4667 & 0.4667 & 0.4667 & 0.4 & 0.4516 \\
+					0.4516 & 0.4667 & 0.4242 & 0.4516 & 0.4375 \\
+					0.4118 & 0.4 & 0.5185 & 0.3684 & 0.2745
+				\end{bmatrix}
+				\]
+				
 				Node $i=13$ (value 0.5185) has the highest closeness centrality, so we choose it as the location 
-				for the broadcast station to ensure efficient nationwide coverage.
+				for the bookstore to ensure efficient distance to other nodes.
 			}
 			\item Two stores have decided to open new branches in the city. Each person (node)
 			buys from the nearest store. If a person is at equal distance from both stores, their
@@ -68,7 +84,27 @@
 				Therefore, the recommended locations are: store A at node 13, and store B at any 
 				of nodes 1, 3, 7, or 8.
 			}
-			
+
+		\end{enumerate}
+	\end{subquestion}
+	\begin{subquestion}{Consider the below network.}
+		\begin{enumerate}
+			\item What is the closeness centrality for node C ?
+			\answer{
+			The closeness centrality(both standard and normalized) for node c are as follows:
+			\[\begin{gathered}
+				{C_C}(c) = \frac{1}{{\sum\limits_{j = 1}^n {{d_{cj}}} }} = \frac{1}{{n - 1}} \hfill \\
+				{{\tilde C}_C}(c) = \frac{{n - 1}}{{\sum\limits_{j = 1}^n {{d_{cj}}} }} = \frac{{n - 1}}{{n - 1}} = 1 \hfill \\ 
+			\end{gathered} \]
+			}
+			\item  Derive the closeness centrality value for the nodes on the ring as a function of n
+			\answer{
+			The closeness centrality(both standard and normalized) are as follows:
+			\[\begin{gathered}
+				{C_C}({n_i}) = \frac{1}{{\sum\limits_{j = 1}^n {{d_{cj}}} }} = \frac{1}{{1 + 1 + 1 + (n - 4)(2)}} = \frac{1}{{2n - 5}} \hfill \\
+				{{\tilde C}_C}({n_i}) = \frac{{n - 1}}{{\sum\limits_{j = 1}^n {{d_{cj}}} }} = \frac{{n - 1}}{{1 + 1 + 1 + (n - 4)(2)}} = \frac{{n - 1}}{{2n - 5}} \hfill \\ 
+			\end{gathered} \]
+			}
 		\end{enumerate}
 	\end{subquestion}
 \end{question}
