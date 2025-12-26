@@ -34,10 +34,40 @@
 				Node $i=13$ (value 0.5185) has the highest closeness centrality, so we choose it as the location 
 				for the broadcast station to ensure efficient nationwide coverage.
 			}
-			\item  Two stores have decided to open new branches in the city. Each person (node)
+			\item Two stores have decided to open new branches in the city. Each person (node)
 			buys from the nearest store. If a person is at equal distance from both stores, their
 			purchases are split equally between them. First, select the best node to open store
 			A, then determine the best location for store B given that choice.
+			\answer{
+				From the closeness centrality analysis, we know that node 13 has the highest value, 
+				so it is the best choice for opening store A. Given store A at node 13, the nodes 
+				that would maximize the number of customers for store B are those with the highest 
+				customer counts. In this case, nodes 1, 3, 7, and 8 each attract 7.0 customers, 
+				making them all equally good candidates for store B.
+				
+				The number of customers each node would get if store A is at node 13 is shown below, 
+				with the best candidates for store B highlighted in bold:
+				\[
+				\begin{bmatrix}
+					1 & \mathbf{7.0} \\
+					2 & 6.0 \\
+					3 & \mathbf{7.0} \\
+					4 & 6.5 \\
+					5 & 6.5 \\
+					6 & 5.5 \\
+					7 & \mathbf{7.0} \\
+					8 & \mathbf{7.0} \\
+					9 & 6.5 \\
+					10 & 5.0 \\
+					11 & 5.5 \\
+					12 & 6.5 \\
+					14 & 2.0 \\
+					15 & 1.5
+				\end{bmatrix}
+				\]
+				Therefore, the recommended locations are: store A at node 13, and store B at any 
+				of nodes 1, 3, 7, or 8.
+			}
 			
 		\end{enumerate}
 	\end{subquestion}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.7)  26 DEC 2025 17:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.7)  26 DEC 2025 18:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -872,9 +872,15 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/l/it' aliased to
 (Font)              `T1/Roboto-LF/light/it' on input line 4.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/it' will be
 (Font)              scaled to size 10.95pt on input line 4.
-) (questions/q3.tex) (questions/q4.tex) (questions/q5.tex)
 
-[4] 
+
+LaTeX Font Info:    Font shape `T1/Roboto-LF/l/it' aliased to
+(Font)              `T1/Roboto-LF/light/it' on input line 70.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/light/it' will be
+(Font)              scaled to size 10.0pt on input line 70.
+[4]) (questions/q3.tex) (questions/q4.tex) (questions/q5.tex)
+
+[5] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (main.aux)
  ***********
@@ -887,23 +893,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 24406 strings out of 468133
- 511290 string characters out of 5445149
- 915131 words of memory out of 5000000
- 52567 multiletter control sequences out of 15000+600000
- 689648 words of font info for 84 fonts, out of 8000000 for 9000
+ 24424 strings out of 468133
+ 511662 string characters out of 5445149
+ 921131 words of memory out of 5000000
+ 52581 multiletter control sequences out of 15000+600000
+ 695813 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,12n,108p,516b,1113s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,12n,108p,516b,1210s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Appa/MiKTeX/fonts/type1/google/roboto/Roboto-Bold.pfb><D:/Appa/MiKTeX/fon
 ts/type1/google/roboto/Roboto-Light.pfb><D:/Appa/MiKTeX/fonts/type1/google/robo
-to/Roboto-LightItalic.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10
-.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Appa/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Appa/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D
-:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (4 pages, 129754 bytes).
+to/Roboto-LightItalic.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10
+.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Appa/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Appa/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D
+:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Appa/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (5 pages, 143298 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

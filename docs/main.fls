@@ -346,6 +346,14 @@ INPUT .\questions\q2.tex
 INPUT .\questions\q2.tex
 INPUT questions\q2.tex
 INPUT D:\Appa\MiKTeX\fonts\tfm\google\roboto\Roboto-LightItalic-lf-t1.tfm
+INPUT D:\Appa\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT D:\Appa\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
+INPUT D:\Appa\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
+INPUT D:\Appa\MiKTeX\fonts\tfm\google\roboto\Roboto-LightItalic-lf-t1.tfm
+INPUT D:\Appa\MiKTeX\fonts\vf\google\roboto\Roboto-LightItalic-lf-t1.vf
+INPUT D:\Appa\MiKTeX\fonts\tfm\google\roboto\Roboto-LightItalic-lf-t1--base.tfm
+INPUT D:\Appa\MiKTeX\fonts\vf\google\roboto\Roboto-LightItalic-lf-t1.vf
+INPUT D:\Appa\MiKTeX\fonts\tfm\google\roboto\Roboto-LightItalic-lf-t1--base.tfm
 INPUT .\questions\q3.tex
 INPUT .\questions\q3.tex
 INPUT questions\q3.tex
@@ -355,8 +363,6 @@ INPUT questions\q4.tex
 INPUT .\questions\q5.tex
 INPUT .\questions\q5.tex
 INPUT questions\q5.tex
-INPUT D:\Appa\MiKTeX\fonts\vf\google\roboto\Roboto-LightItalic-lf-t1.vf
-INPUT D:\Appa\MiKTeX\fonts\tfm\google\roboto\Roboto-LightItalic-lf-t1--base.tfm
 INPUT main.aux
 INPUT D:\Appa\MiKTeX\fonts\type1\google\roboto\Roboto-Bold.pfb
 INPUT D:\Appa\MiKTeX\fonts\type1\google\roboto\Roboto-Bold.pfb
@@ -364,6 +370,8 @@ INPUT D:\Appa\MiKTeX\fonts\type1\google\roboto\Roboto-Light.pfb
 INPUT D:\Appa\MiKTeX\fonts\type1\google\roboto\Roboto-Light.pfb
 INPUT D:\Appa\MiKTeX\fonts\type1\google\roboto\Roboto-LightItalic.pfb
 INPUT D:\Appa\MiKTeX\fonts\type1\google\roboto\Roboto-LightItalic.pfb
+INPUT D:\Appa\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT D:\Appa\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT D:\Appa\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT D:\Appa\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT D:\Appa\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
