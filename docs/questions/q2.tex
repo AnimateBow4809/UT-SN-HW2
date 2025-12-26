@@ -128,4 +128,21 @@
 			}
 		\end{enumerate}
 	\end{subquestion}
+	\begin{subquestion}{Consider an undirected tree of n nodes. A particular edge in the tree joins node 1 and 2 and divides the tree into two disjoint regions of n1 and n2 nodes, as sketched below:}
+		Show that the closeness centrality C1 and C2 of the two nodes are related by:
+		\[\frac{1}{{{C_1}}} + \frac{{{n_1}}}{n} = \frac{1}{{{C_2}}} + \frac{{{n_2}}}{n}\]
+		\answer{
+		The proof goes as follows:
+		\[\begin{gathered}
+			{C_C}(1) = \frac{n}{{\sum\limits_{j = 1}^n {{d_{1j}}} }} = \frac{n}{{\sum\limits_{j = 1}^{{n_1}} {{d_{1j}}}  + {n_2} + \sum\limits_{j = {n_1}}^{{n_1} + {n_2}} {{d_{2j}}} }} \hfill \\
+			{C_C}(2) = \frac{n}{{\sum\limits_{j = 1}^n {{d_{2j}}} }} = \frac{n}{{\sum\limits_{j = {n_1}}^{{n_1} + {n_2}} {{d_{2j}}}  + {n_1} + \sum\limits_{j = 1}^{{n_1}} {{d_{1j}}} }} \hfill \\
+			\frac{n}{{{C_C}(1)}} = {n_2} + \sum\limits_{j = 1}^{{n_1}} {{d_{1j}}}  + \sum\limits_{j = {n_1}}^{{n_1} + {n_2}} {{d_{2j}}}  \hfill \\
+			\frac{n}{{{C_C}(2)}} = {n_1} + \sum\limits_{j = {n_1}}^{{n_1} + {n_2}} {{d_{2j}}}  + \sum\limits_{j = 1}^{{n_1}} {{d_{1j}}}  \hfill \\
+			\frac{n}{{{C_C}(1)}} - {n_2} = \frac{n}{{{C_C}(2)}} - {n_1} \hfill \\
+			\frac{1}{{{C_C}(1)}} - \frac{{{n_2}}}{n} = \frac{1}{{{C_C}(2)}} - \frac{{{n_1}}}{n} \hfill \\
+			\frac{1}{{{C_C}(1)}} + \frac{{{n_1}}}{n} = \frac{1}{{{C_C}(2)}} + \frac{{{n_2}}}{n} \hfill \\
+			\frac{1}{{{C_1}}} + \frac{{{n_1}}}{n} = \frac{1}{{{C_2}}} + \frac{{{n_2}}}{n} \hfill \\
+		\end{gathered} \]
+		}
+	\end{subquestion}
 \end{question}
