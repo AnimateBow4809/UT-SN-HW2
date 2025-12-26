@@ -91,7 +91,7 @@
 		\begin{enumerate}
 			\item What is the closeness centrality for node C ?
 			\answer{
-			The closeness centrality(both standard and normalized) for node c are as follows:
+			The closeness centrality(both standard and normalized) for node C are as follows:
 			\[\begin{gathered}
 				{C_C}(c) = \frac{1}{{\sum\limits_{j = 1}^n {{d_{cj}}} }} = \frac{1}{{n - 1}} \hfill \\
 				{{\tilde C}_C}(c) = \frac{{n - 1}}{{\sum\limits_{j = 1}^n {{d_{cj}}} }} = \frac{{n - 1}}{{n - 1}} = 1 \hfill \\ 
@@ -99,10 +99,31 @@
 			}
 			\item  Derive the closeness centrality value for the nodes on the ring as a function of n
 			\answer{
-			The closeness centrality(both standard and normalized) are as follows:
+			The closeness centrality(both standard and normalized) for nodes other than node C are as follows:
+		\[\begin{gathered}
+			{C_C}({n_i}) = \frac{1}{{\sum\limits_{j = 1}^n {{d_{ij}}} }} = \frac{1}{{1 + 1 + 1 + (n - 4)(2)}} = \frac{1}{{2n - 5}} \hfill \\
+			{{\tilde C}_C}({n_i}) = \frac{{n - 1}}{{\sum\limits_{j = 1}^n {{d_{ij}}} }} = \frac{{n - 1}}{{1 + 1 + 1 + (n - 4)(2)}} = \frac{{n - 1}}{{2n - 5}} \hfill \\ 
+		\end{gathered} \]
+			for any node on the ring the 2 nodes beside it and the hub node have a distance of 1 and the rest $n-4$ nodes have a distance of 2 which goes through the hub
+			}
+			\item  Derive the betweenness centrality value for node C .
+			\answer{
+			we know that C is in every shortest path except for the neighbors of each node so $2$ nodes are gone and we also know that for neighbors of our neighbors we have 2 paths which one goes through C so $2$ nodes are gone and for the rest of the paths they all go through C so we would have $n-1$ nodes on the ring which have the following equation:
 			\[\begin{gathered}
-				{C_C}({n_i}) = \frac{1}{{\sum\limits_{j = 1}^n {{d_{cj}}} }} = \frac{1}{{1 + 1 + 1 + (n - 4)(2)}} = \frac{1}{{2n - 5}} \hfill \\
-				{{\tilde C}_C}({n_i}) = \frac{{n - 1}}{{\sum\limits_{j = 1}^n {{d_{cj}}} }} = \frac{{n - 1}}{{1 + 1 + 1 + (n - 4)(2)}} = \frac{{n - 1}}{{2n - 5}} \hfill \\ 
+				{\delta _{uv}}({n_i}) = \frac{{{\sigma _{uv}}({n_i})}}{{{\sigma _{uv}}}} \hfill \\
+				{C_B}({n_i}) = \sum\limits_{u \ne {n_i}} {\sum\limits_{v \ne {n_i}} {{\delta _{uv}}({n_i})} }  \hfill \\
+				{\delta _{uv}}(C) = \left\{ {\begin{array}{*{20}{c}}
+						{\begin{array}{*{20}{c}}
+								0&{{d_{uv}} = 1} 
+						\end{array}} \\ 
+						{\begin{array}{*{20}{c}}
+								{\frac{1}{2}}&{{d_{uv}} = 2} 
+						\end{array}} \\ 
+						{\begin{array}{*{20}{c}}
+								1&{{d_{uv}} > 2} 
+						\end{array}} 
+				\end{array}} \right.\;\;where\;C \notin \;{d_{uv}}\; \hfill \\
+				{C_B}(C) = \frac{1}{2}(n - 1)(0 + 0 + 0 + \frac{1}{2} + \frac{1}{2} + (n - 6)) = \frac{{(n - 1)(n - 5)}}{2} \hfill \\ 
 			\end{gathered} \]
 			}
 		\end{enumerate}
