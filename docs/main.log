@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.7)  16 DEC 2025 03:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.7)  27 DEC 2025 00:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -855,76 +855,6 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
 (Font)              `T1/Roboto-LF/bold/n' on input line 1.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
 (Font)              scaled to size 10.95pt on input line 1.
-LaTeX Info: Symbol \textlangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 2.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/l/n' undefined
-(Font)              using `T1/cmss/m/n' instead on input line 2.
-
-
-LaTeX Font Warning: Font shape `TS1/cmss/l/n' undefined
-(Font)              using `TS1/cmss/m/n' instead
-(Font)              for symbol `textlangle' on input line 2.
-
-LaTeX Info: Symbol \textrangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 2.
-LaTeX Info: Symbol \textlangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 2.
-LaTeX Info: Symbol \textrangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 2.
-
-LaTeX Warning: Command \textlangle invalid in math mode on input line 6.
-
-LaTeX Info: Symbol \textlangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 6.
-
-LaTeX Warning: Command \textlangle invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \textlangle invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \textrangle invalid in math mode on input line 6.
-
-LaTeX Info: Symbol \textrangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 6.
-
-LaTeX Warning: Command \textrangle invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \textrangle invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \textlangle invalid in math mode on input line 7.
-
-LaTeX Info: Symbol \textlangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 7.
-
-LaTeX Warning: Command \textlangle invalid in math mode on input line 7.
-
-
-LaTeX Warning: Command \textlangle invalid in math mode on input line 7.
-
-
-LaTeX Warning: Command \textrangle invalid in math mode on input line 7.
-
-LaTeX Info: Symbol \textrangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 7.
-
-LaTeX Warning: Command \textrangle invalid in math mode on input line 7.
-
-
-LaTeX Warning: Command \textrangle invalid in math mode on input line 7.
-
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -932,211 +862,83 @@ LaTeX Warning: Command \textrangle invalid in math mode on input line 7.
 
 
 [2] (main.lof
-LaTeX Info: Symbol \textlangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 1.
-LaTeX Info: Symbol \textrangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 1.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/l/it' aliased to
+(Font)              `T1/Roboto-LF/light/it' on input line 1.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/light/it' will be
+(Font)              scaled to size 10.95pt on input line 1.
 )
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
 
 
-[3]
-LaTeX Font Info:    Font shape `T1/Roboto-LF/l/it' aliased to
-(Font)              `T1/Roboto-LF/light/it' on input line 73.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/light/it' will be
-(Font)              scaled to size 10.95pt on input line 73.
-LaTeX Info: Symbol \textlangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 73.
+[3] (questions/q1.tex) (questions/q2.tex) (questions/q3.tex) (questions/q4.tex
+LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input 
+line 55.
 
+(D:\Appa\MiKTeX\tex/latex/roboto\ts1roboto-lf.fd
+File: TS1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for TS1/Roboto-LF.
 
-LaTeX Font Warning: Font shape `T1/cmss/l/it' undefined
-(Font)              using `T1/cmss/l/n' instead on input line 73.
-
-
-LaTeX Font Warning: Font shape `TS1/cmss/l/it' undefined
-(Font)              using `TS1/cmss/l/n' instead
-(Font)              for symbol `textlangle' on input line 73.
-
-LaTeX Info: Symbol \textrangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 73.
-LaTeX Info: Symbol \textlangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 73.
-LaTeX Info: Symbol \textrangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 73.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
-(Font)              `T1/Roboto-LF/light/n' on input line 128.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 8.0pt on input line 128.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
-(Font)              `T1/Roboto-LF/light/n' on input line 128.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 6.0pt on input line 128.
+)
+LaTeX Font Info:    Font shape `TS1/Roboto-LF/l/n' aliased to
+(Font)              `TS1/Roboto-LF/light/n' on input line 55.
+LaTeX Font Info:    Font shape `TS1/Roboto-LF/light/n' will be
+(Font)              scaled to size 10.95pt on input line 55.
 
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/it' aliased to
-(Font)              `T1/Roboto-LF/light/it' on input line 134.
+(Font)              `T1/Roboto-LF/light/it' on input line 55.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/it' will be
-(Font)              scaled to size 10.0pt on input line 134.
-[4]
-
-LaTeX Warning: Command \textlangle invalid in math mode on input line 161.
-
-LaTeX Info: Symbol \textlangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 161.
-
-LaTeX Warning: Command \textlangle invalid in math mode on input line 161.
-
-
-LaTeX Warning: Command \textlangle invalid in math mode on input line 161.
-
-
-LaTeX Warning: Command \textrangle invalid in math mode on input line 161.
-
-LaTeX Info: Symbol \textrangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 161.
-
-LaTeX Warning: Command \textrangle invalid in math mode on input line 161.
-
-
-LaTeX Warning: Command \textrangle invalid in math mode on input line 161.
-
-
-LaTeX Warning: Command \textlangle invalid in math mode on input line 171.
-
-LaTeX Info: Symbol \textlangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 171.
-
-LaTeX Warning: Command \textlangle invalid in math mode on input line 171.
-
-
-LaTeX Warning: Command \textlangle invalid in math mode on input line 171.
-
-
-LaTeX Warning: Command \textrangle invalid in math mode on input line 171.
-
-LaTeX Info: Symbol \textrangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 171.
-
-LaTeX Warning: Command \textrangle invalid in math mode on input line 171.
-
-
-LaTeX Warning: Command \textrangle invalid in math mode on input line 171.
-
+(Font)              scaled to size 10.0pt on input line 55.
+[4{D:/Appa/MiKTeX/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}]
+<imgs/q4_a_plot.png, id=57, 723.4227pt x 507.3354pt>
+File: imgs/q4_a_plot.png Graphic file (type png)
+<use imgs/q4_a_plot.png>
+Package pdftex.def Info: imgs/q4_a_plot.png  used on input line 81.
+(pdftex.def)             Requested size: 386.96027pt x 271.37918pt.
 
 
 [5]
-<imgs/q2_initial_plot.png, id=72, 859.2903pt x 353.4003pt>
-File: imgs/q2_initial_plot.png Graphic file (type png)
-<use imgs/q2_initial_plot.png>
-Package pdftex.def Info: imgs/q2_initial_plot.png  used on input line 200.
-(pdftex.def)             Requested size: 386.96027pt x 159.14189pt.
-LaTeX Info: Symbol \textlangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 202.
-LaTeX Info: Symbol \textrangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 202.
-LaTeX Info: Symbol \textlangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 202.
-LaTeX Info: Symbol \textrangle not provided by
-            font family Roboto-LF in TS1 encoding.
-            Default family used instead on input line 202.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
+(Font)              `T1/Roboto-LF/light/n' on input line 110.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
+(Font)              scaled to size 8.0pt on input line 110.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
+(Font)              `T1/Roboto-LF/light/n' on input line 110.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
+(Font)              scaled to size 6.0pt on input line 110.
 
-
-[6 <./imgs/q2_initial_plot.png>]
-<imgs/q2_second_plot.png, id=78, 501.5538pt x 398.9304pt>
-File: imgs/q2_second_plot.png Graphic file (type png)
-<use imgs/q2_second_plot.png>
-Package pdftex.def Info: imgs/q2_second_plot.png  used on input line 214.
-(pdftex.def)             Requested size: 386.96027pt x 307.79216pt.
-
-
-[7 <./imgs/q2_second_plot.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
-
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+[]\T1/Roboto-LF/bold/n/10.95 Carsten Schnei-der \T1/Roboto-LF/light/n/10.95 ($[
+] \OT1/cmr/m/n/10.95 = 228\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 5\OML/cmm/m/i
+t/10.95 ;  [] \OT1/cmr/m/n/10.95 =
  []
 
-<imgs/q3_adj_plot.png, id=84, 508.0581pt x 510.2262pt>
-File: imgs/q3_adj_plot.png Graphic file (type png)
-<use imgs/q3_adj_plot.png>
-Package pdftex.def Info: imgs/q3_adj_plot.png  used on input line 237.
-(pdftex.def)             Requested size: 386.96027pt x 388.62454pt.
+
+Underfull \hbox (badness 1205) in paragraph at lines 110--110
+\OT1/cmr/m/n/10.95 43\OML/cmm/m/it/10.95 ;  [] \OT1/cmr/m/n/10.95 = 29$\T1/Robo
+to-LF/light/n/10.95 ) Schnei-der's high close-ness places him near
+ []
 
 
-[8]
-
-[9 <./imgs/q3_adj_plot.png>]
-<imgs/q3_out_plot.png, id=92, 395.3169pt x 287.6346pt>
-File: imgs/q3_out_plot.png Graphic file (type png)
-<use imgs/q3_out_plot.png>
-Package pdftex.def Info: imgs/q3_out_plot.png  used on input line 253.
-(pdftex.def)             Requested size: 386.96027pt x 281.55519pt.
-<imgs/q3_in_plot.png, id=93, 395.3169pt x 287.6346pt>
-File: imgs/q3_in_plot.png Graphic file (type png)
-<use imgs/q3_in_plot.png>
-Package pdftex.def Info: imgs/q3_in_plot.png  used on input line 260.
-(pdftex.def)             Requested size: 386.96027pt x 281.55519pt.
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+[]\T1/Roboto-LF/bold/n/10.95 Barbara Hen-dricks \T1/Roboto-LF/light/n/10.95 ($[
+] \OT1/cmr/m/n/10.95 = 130\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 5\OML/cmm/m/i
+t/10.95 ;  [] \OT1/cmr/m/n/10.95 =
+ []
 
 
-[10 <./imgs/q3_out_plot.png>]
-<imgs/q3_dense_plot.png, id=98, 706.8006pt x 281.853pt>
-File: imgs/q3_dense_plot.png Graphic file (type png)
-<use imgs/q3_dense_plot.png>
-Package pdftex.def Info: imgs/q3_dense_plot.png  used on input line 281.
-(pdftex.def)             Requested size: 386.96027pt x 154.31pt.
-
-
-[11 <./imgs/q3_in_plot.png>]
-<imgs/q4_a_plot.png, id=103, 570.933pt x 426.393pt>
-File: imgs/q4_a_plot.png Graphic file (type png)
-<use imgs/q4_a_plot.png>
-Package pdftex.def Info: imgs/q4_a_plot.png  used on input line 304.
-(pdftex.def)             Requested size: 386.96027pt x 289.0065pt.
-
-
-[12 <./imgs/q3_dense_plot.png>]
-
-[13 <./imgs/q4_a_plot.png>]
-<imgs/q4_c_plot.png, id=113, 570.933pt x 354.123pt>
-File: imgs/q4_c_plot.png Graphic file (type png)
-<use imgs/q4_c_plot.png>
-Package pdftex.def Info: imgs/q4_c_plot.png  used on input line 329.
-(pdftex.def)             Requested size: 386.96027pt x 240.02234pt.
-
-
-[14 <./imgs/q4_c_plot.png>]
-<imgs/q4_d_plot.png, id=118, 570.933pt x 426.393pt>
-File: imgs/q4_d_plot.png Graphic file (type png)
-<use imgs/q4_d_plot.png>
-Package pdftex.def Info: imgs/q4_d_plot.png  used on input line 350.
-(pdftex.def)             Requested size: 386.96027pt x 289.0065pt.
-
-
-[15 <./imgs/q4_d_plot.png>]
-
-[16]
-Underfull \hbox (badness 4634) in paragraph at lines 372--374
-[]\T1/Roboto-LF/light/n/10.95 ChatGPT, \T1/Roboto-LF/light/it/10.95 Chat ses-si
-on used for as-sign-ment guid-ance\T1/Roboto-LF/light/n/10.95 , $\T1/cmtt/m/n/1
-0.95 https : / / chatgpt . com / share /
+Underfull \hbox (badness 1584) in paragraph at lines 110--110
+\OT1/cmr/m/n/10.95 33\OML/cmm/m/it/10.95 ;  [] \OT1/cmr/m/n/10.95 = 283\OML/cmm
+/m/it/10.95 :\OT1/cmr/m/n/10.95 5$\T1/Roboto-LF/light/n/10.95 ) In con-trast, H
+en-dricks shows low close-
  []
 
 
 
-[17] 
+[6 <./imgs/q4_a_plot.png>]) (questions/q5.tex)
+
+[7] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (main.aux)
  ***********
@@ -1149,30 +951,20 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 24539 strings out of 468133
- 514043 string characters out of 5445149
- 927946 words of memory out of 5000000
- 52713 multiletter control sequences out of 15000+600000
- 705778 words of font info for 91 fonts, out of 8000000 for 9000
+ 24529 strings out of 468133
+ 514145 string characters out of 5445149
+ 920198 words of memory out of 5000000
+ 52683 multiletter control sequences out of 15000+600000
+ 705032 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,21n,108p,1225b,1216s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
-1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcss1095.pk><D:/Appa/MiKTeX/fonts/type1/google/roboto/Roboto-Bold.pfb><D:/App
-a/MiKTeX/fonts/type1/google/roboto/Roboto-Light.pfb><D:/Appa/MiKTeX/fonts/type1
-/google/roboto/Roboto-LightItalic.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmex10.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb>
-<D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Appa/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmmi6.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Appa
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Appa/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr8.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Appa/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfo
-nts/symbols/msam10.pfb>
-Output written on main.pdf (17 pages, 578580 bytes).
+ 103i,12n,108p,516b,1212s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<D:/Appa/MiKTeX/fonts/type1/google/roboto/Roboto-Bold.pfb><D:/Appa/MiKTeX/fon
+ts/type1/google/roboto/Roboto-Light.pfb><D:/Appa/MiKTeX/fonts/type1/google/robo
+to/Roboto-LightItalic.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on main.pdf (7 pages, 190032 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
