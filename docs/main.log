@@ -873,41 +873,44 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/l/it' aliased to
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/it' will be
 (Font)              scaled to size 10.95pt on input line 4.
 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.23 			}
+         
+? 
+! Emergency stop.
+<recently read> \endtemplate 
+                             
+l.23 			}
+         
+End of file on the terminal!
 
-LaTeX Font Info:    Font shape `T1/Roboto-LF/l/it' aliased to
-(Font)              `T1/Roboto-LF/light/it' on input line 52.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/light/it' will be
-(Font)              scaled to size 10.0pt on input line 52.
-[4]
-
-[5]
-
-[6]) (questions/q3.tex) (questions/q4.tex) (questions/q5.tex)
-
-[7] 
-enddocument/afterlastpage (AED): lastpage setting LastPage.
-(main.aux)
- ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-07-20>
- ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 24436 strings out of 468133
- 511922 string characters out of 5445149
- 931138 words of memory out of 5000000
- 52593 multiletter control sequences out of 15000+600000
- 695813 words of font info for 89 fonts, out of 8000000 for 9000
+ 24305 strings out of 468133
+ 508771 string characters out of 5445149
+ 908131 words of memory out of 5000000
+ 52478 multiletter control sequences out of 15000+600000
+ 689183 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,23n,108p,516b,1210s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<D:/Appa/MiKTeX/fonts/type1/google/roboto/Roboto-Bold.pfb><D:/Appa/MiKTeX/fon
-ts/type1/google/roboto/Roboto-Light.pfb><D:/Appa/MiKTeX/fonts/type1/google/robo
-to/Roboto-LightItalic.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10
-.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Appa/MiKTeX/
+ 103i,12n,108p,516b,539s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
+uring a crisis.}
+                                                  
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 24306 strings out of 468133
+ 508788 string characters out of 5445149
+ 908123 words of memory out of 5000000
+ 52480 multiletter control sequences out of 15000+600000
+ 693543 words of font info for 83 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 103i,12n,108p,516b,539s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
+.pfb><D:/Appa/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Appa/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmmi6.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D
 :/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Appa/MiKTeX/fonts/ty
