@@ -56,13 +56,13 @@
 		\begin{enumerate}
 			\item \textbf{Global Communication Efficiency ($f_1$)}: Yes, SI. Depends only on shortest path distances between nodes; measures how efficiently information can flow through the network.
 			
-			\item \textbf{Collaborative Redundancy / Local Density ($f_2$)}: Yes, SI. Based on adjacency and local clustering; measures redundancy and strength of local connections.
+			\item \textbf{Collaborative Redundancy / Local Density ($f_2$)}: Yes, SI. If the proportions $p_{ij}$ are derived from intrinsic edge weights $w_{ij}$ of the weighted graph, $f_2$ depends purely on the weighted network topology and reflects relative connectivity patterns dictated by the network structure.
 			
 			\item \textbf{Structural Heterogeneity / Degree Entropy ($f_3$)}: Yes, SI. Uses node degrees only; measures diversity in connectivity and roles within the network.
 			
-			\item \textbf{Average Digital Presence ($f_4$)}: No, not SI. Depends on dynamic activity of nodes ($H(v)$), not network topology.
+			\item \textbf{Average Digital Presence ($f_4$)}: No, not SI. Depends on dynamic activity of nodes ($H(v)$), which is an external attribute not determined by network topology.
 			
-			\item \textbf{Total Organizational Connectivity ($f_5$)}: No, not SI. Depends on edge weights ($w_{vu}$), which reflect interaction intensity rather than structure alone.
+			\item \textbf{Total Organizational Connectivity ($f_5$)}: Yes, SI. If the edge weights $w_{ij}$ are intrinsic to the weighted graph structure, $f_5$ depends purely on the weighted topology and reflects the total connectivity encoded by the network structure.
 		\end{enumerate}
 		}
 	\end{subquestion}
