@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}}{4}{}%
+\contentsline {subsection}{\numberline {(a)}Consider the small-world model of Watts and Strogatz with rewiring probability p . The model starts with a regular ring lattice where each node is connected to its ⟨k⟩ / 2 neigh- bors on either side for a total degree of ⟨k⟩ .1 Show that when p = 0 , the overall clustering coefficient of this graph is given by: }{4}{}%
+\contentsline {subsection}{\numberline {(b)}Show that when $p > 0$ , the overall clustering coefficient is given by:}{5}{}%
+\contentsline {section}{\numberline {2}}{5}{}%
+\contentsline {subsection}{\numberline {(a)}For a very large, snobbish network where $p >> q $, determine the minimal values for p and q (each in terms of N ) required to ensure global connectivity.}{5}{}%
+\contentsline {subsection}{\numberline {(b)}What is the expected scaling of the average shortest path length $⟨d_{same}⟩$ between two nodes of the same color?}{5}{}%
+\contentsline {subsection}{\numberline {(c)}What is the expected scaling of the average shortest path length $⟨d_{diff} ⟩$ between two nodes of different colors?}{5}{}%
+\contentsline {subsection}{\numberline {(d)}Based on your answers, does this network model exhibit the small-world property?1 Justify your answer by explaining how this model does (or does not) satisfy the two key characteristics of small-world networks (path length and clustering).}{6}{}%
+\contentsline {section}{\numberline {3}}{6}{}%
+\contentsline {subsection}{\numberline {(a)}Network Construction and Simulation}{6}{}%
+\contentsline {subsection}{\numberline {(b)}Scaling Analysis}{7}{}%
+\contentsline {subsection}{\numberline {(c)}Explain why the Random Network follows a logarithmic scaling while lattices follow a polynomial scaling. What structural feature of the Random Network (often referred to as “shortcuts”) is responsible for this drastic reduction in path length?}{7}{}%
+\contentsline {section}{\numberline {4}}{8}{}%
+\contentsline {subsection}{\numberline {(a)}Deterministic Construction of Scale-Free Networks}{8}{}%
+\contentsline {subsection}{\numberline {(b)}The Random Genetic (RG) Model \& Parameter Space}{11}{}%
+\contentsline {section}{\numberline {5}}{12}{}%
+\contentsline {subsection}{\numberline {(a)}Simulating Network Evolution}{12}{}%
+\contentsline {subsection}{\numberline {(b)}Analyzing the Critical Threshold}{13}{}%
+\contentsline {subsection}{\numberline {(c)}Finite Size Effects}{14}{}%
+\contentsline {subsection}{\numberline {(d)}The Critical State}{15}{}%
