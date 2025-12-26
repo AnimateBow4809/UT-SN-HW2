@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.7)  26 DEC 2025 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.7)  26 DEC 2025 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -589,36 +589,28 @@ Library (tcolorbox): 'tcbvignette.code.tex' version '6.7.1'
 File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (D:\Appa\MiKTeX\tex/generic/pgf/libraries\pgflibraryfadings.code.tex
 File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (D:\Appa\MiKTeX\tex/latex/tcolorbox\tcbposter.code.tex
-Library (tcolorbox): 'tcbposter.code.tex' version '6.7.1'
-)) (D:\Appa\MiKTeX\tex/latex/booktabs\booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen282
-\lightrulewidth=\dimen283
-\cmidrulewidth=\dimen284
-\belowrulesep=\dimen285
-\belowbottomsep=\dimen286
-\aboverulesep=\dimen287
-\abovetopsep=\dimen288
-\cmidrulesep=\dimen289
-\cmidrulekern=\dimen290
-\defaultaddspace=\dimen291
-\@cmidla=\count340
-\@cmidlb=\count341
-\@aboverulesep=\dimen292
-\@belowrulesep=\dimen293
-\@thisruleclass=\count342
-\@lastruleclass=\count343
-\@thisrulewidth=\dimen294
-)
-(D:\Appa\MiKTeX\tex/latex/geometry\geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(D:\Appa\MiKTeX\tex/generic/iftex\ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-)
-\Gm@cnth=\count344
-\Gm@cntv=\count345
+! I can't write on file `main.pdf'.
+(Press Enter to retry, or Control-C to exit; default file extension is `.pdf')
+Please type another file name for output: 
+! Emergency stop.
+\pgfsys@horishading ...e] >> >>}\pgfutil@tempboxa 
+                                                  \xdef \pgfutil@tempa {\hbo...
+l.17 ...t!100); color(100bp)=(pgftransparent!100)}
+                                                  %
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 20802 strings out of 468133
+ 444418 string characters out of 5445149
+ 843674 words of memory out of 5000000
+ 49104 multiletter control sequences out of 15000+600000
+ 627125 words of font info for 41 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 103i,1n,108p,516b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
+count345
 \c@Gm@tempcnt=\count346
 \Gm@bindingoffset=\dimen295
 \Gm@wd@mp=\dimen296
