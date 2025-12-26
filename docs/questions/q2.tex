@@ -1,0 +1,44 @@
+
+\begin{question}
+	\questiontext{Distances and Neighbors}
+	\begin{subquestion}{Consider the below network.}
+		For each of the following scenarios, indicate which node would be the best choice, giving
+		reasons:
+		\begin{enumerate}
+			\item The mayor wants to install a radio broadcast station so that, in a crisis, a single
+			nationwide message can reach all areas. The goal is that every node’s distance to
+			the station (independently of other nodes) is as small as possible —in other words,
+			the maximum distance from any node to the station should be minimized.
+			\answer{
+				To determine the optimal node for placing the broadcast station, we use \textbf{closeness centrality}, 
+				which measures how close a node is on average to all other nodes in the graph. 
+				By choosing the node with the highest closeness centrality, we ensure that the station can reach 
+				all other nodes as quickly as possible on average.
+				
+				The formula for closeness centrality of a node $v$ is:
+				\[
+				C(v) = \frac{n-1}{\sum_{u \in V} d(v,u)}
+				\]
+				where $d(v,u)$ is the shortest-path distance between nodes $v$ and $u$, and $n$ is the total number of nodes.
+				
+				For our 15-node graph, the closeness centrality values are:
+				
+			\[
+			\begin{bmatrix}
+				0.4667 & 0.4667 & 0.4667 & 0.4 & 0.4516 \\
+				0.4516 & 0.4667 & 0.4242 & 0.4516 & 0.4375 \\
+				0.4118 & 0.4 & 0.5185 & 0.3684 & 0.2745
+			\end{bmatrix}
+			\]
+			
+				Node $i=13$ (value 0.5185) has the highest closeness centrality, so we choose it as the location 
+				for the broadcast station to ensure efficient nationwide coverage.
+			}
+			\item  Two stores have decided to open new branches in the city. Each person (node)
+			buys from the nearest store. If a person is at equal distance from both stores, their
+			purchases are split equally between them. First, select the best node to open store
+			A, then determine the best location for store B given that choice.
+			
+		\end{enumerate}
+	\end{subquestion}
+\end{question}
