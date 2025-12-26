@@ -55,7 +55,7 @@
 			}
 			\item  Gap Analysis: Generate a Scatter Plot with Degree on the X-axis and Eigenvector on the Y-axis. Identify nodes that deviate significantly positively from the correlation line (Low Degree but High Eigenvector).
 			\answer{
-			\textbf{Gap Analysis:} We performed a gap analysis by generating a scatter plot shown in Figure~\ref{fig:q4_a_plot} with \emph{Normalized Degree Centrality} on the X-axis and \emph{Eigenvector Centrality} on the Y-axis. A linear regression line was fitted to capture the overall correlation between quantity of connections (degree) and quality of connections (eigenvector).
+			  We performed a gap analysis by generating a scatter plot shown in Figure~\ref{fig:q4_a_plot} with \emph{Normalized Degree Centrality} on the X-axis and \emph{Eigenvector Centrality} on the Y-axis. A linear regression line was fitted to capture the overall correlation between quantity of connections (degree) and quality of connections (eigenvector).
 			
 			Nodes that lie significantly \emph{above} the regression line exhibit \textbf{high eigenvector centrality despite relatively low degree}, indicating disproportionate structural influence or \emph{power efficiency}. These nodes are identified via large positive residuals from the regression.
 			
@@ -86,7 +86,7 @@
 			individuals. Does the mathematical analysis corroborate their actual roles (e.g.,
 			Chief of Staff, Executive Secretary, or Senior Advisor)?
 			\answer{
-			 \textbf{Three-Way Case Study:} To connect structural metrics with real-world roles, we selected three politicians who exhibit \emph{Low Degree Centrality} (ranked outside the top 100) but \emph{High Eigenvector Centrality} (ranked within the top 50). This combination highlights actors who are not broadly connected, yet are embedded within highly influential neighborhoods of the network.
+			  To connect structural metrics with real-world roles, we selected three politicians who exhibit \emph{Low Degree Centrality} (ranked outside the top 100) but \emph{High Eigenvector Centrality} (ranked within the top 50). This combination highlights actors who are not broadly connected, yet are embedded within highly influential neighborhoods of the network.
 			
 			\textbf{Interpretive Framework (Closeness Centrality):}
 			\begin{itemize}
@@ -107,6 +107,89 @@
 			
 			\textbf{Conclusion:}  
 			Incorporating closeness centrality sharpens the interpretation of influence. High eigenvector centrality alone captures \emph{who one is connected to}, while closeness reveals \emph{how independently} that influence is exercised. The three cases demonstrate two distinct modes of power: centrally embedded autonomous actors versus peripheral elites whose influence is mediated through powerful neighbors—both of which are accurately reflected by the network metrics.
+			}
+		\end{enumerate}
+	\end{subquestion}
+	
+	\begin{subquestion}{Information Bottlenecks}
+		Identify actors who are not necessarily the most famous, but who control the vital arteries
+		of connection within the network.
+		\begin{enumerate}
+			\item  Calculations \& Ranking: Calculate Betweenness Centrality for the entire network. Extract the top 10 nodes and report their corresponding Degree Rank alongside their names.
+			\answer{
+			We computed the \emph{Betweenness Centrality} for all nodes in the network, capturing the extent to which a node lies on the shortest paths between others and thus acts as a broker or bridge. The top 10 nodes based on betweenness centrality, along with their corresponding degree ranks, are reported below.
+			
+			\begin{enumerate}
+				\item Barack Obama (\( \text{Betweenness Rank} = 1, \ \text{Degree Rank} = 6 \))
+				\item Hillary Clinton (\( \text{Betweenness Rank} = 2, \ \text{Degree Rank} = 145.5 \))
+				\item Angela Merkel (\( \text{Betweenness Rank} = 3, \ \text{Degree Rank} = 7 \))
+				\item Justin Trudeau (\( \text{Betweenness Rank} = 4, \ \text{Degree Rank} = 27 \))
+				\item Malcolm Turnbull (\( \text{Betweenness Rank} = 5, \ \text{Degree Rank} = 35.5 \))
+				\item Manfred Weber (\( \text{Betweenness Rank} = 6, \ \text{Degree Rank} = 1 \))
+				\item Peter Tauber (\( \text{Betweenness Rank} = 7, \ \text{Degree Rank} = 38 \))
+				\item Betinho Gomes (\( \text{Betweenness Rank} = 8, \ \text{Degree Rank} = 122 \))
+				\item Niels Annen (\( \text{Betweenness Rank} = 9, \ \text{Degree Rank} = 8 \))
+				\item Boris Johnson (\( \text{Betweenness Rank} = 10, \ \text{Degree Rank} = 679.5 \))
+			\end{enumerate}
+			}
+			\item  Rank Gap Analysis: Examine the table for individuals with Top-Tier Betweenness (Top 10) but Lower
+			Degree. These individuals are mathematical Bridges. Explain the structural differ-
+			ence between their position and that of Hubs.
+			
+			\answer{
+			  We examined nodes with \emph{Top-Tier Betweenness Centrality} (top 10) but comparatively lower \emph{Degree Centrality}. These individuals act as \textbf{mathematical bridges} in the network—nodes that connect otherwise distant parts of the graph without necessarily having many direct connections themselves.
+			
+			\textbf{Observation from the Top 10 Betweenness Table:}
+			\begin{itemize}
+				\item Nodes such as \textbf{Hillary Clinton} (\( \text{Degree Rank} = 145.5 \)) and \textbf{Boris Johnson} (\( \text{Degree Rank} = 679.5 \)) exemplify this phenomenon. Despite having moderate or low degree, they appear in the top 10 for betweenness because they lie on many shortest paths that connect different clusters.
+				\item In contrast, traditional \textbf{hubs} like \textbf{Manfred Weber} (\( \text{Degree Rank} = 1 \)) or \textbf{Angela Merkel} (\( \text{Degree Rank} = 7 \)) are highly connected nodes that accumulate influence through sheer volume of ties rather than strategic positioning.
+			\end{itemize}
+			
+			\textbf{Structural Difference:}  
+			\begin{itemize}
+				\item \textbf{Bridges:} Moderate or low degree, strategically positioned on key paths, critical for network connectivity between clusters, often controlling information or influence flow.
+				\item \textbf{Hubs:} High degree, central in local neighborhoods, influence derived from extensive direct connections rather than bridging disparate regions.
+			\end{itemize}
+			
+			\textbf{Conclusion:}  
+			Betweenness highlights nodes that maintain \emph{structural control} over the network, whereas degree identifies nodes with \emph{volumetric influence}. Bridges and hubs represent complementary forms of power: one by connecting clusters, the other by commanding a dense local neighborhood.
+			}
+			\item Contextual Role Analysis: Select three mediators from the list above. Using reliable sources, identify their real-world positions. Explain which countries, parties, or international organizations they bridge. (Reference the diversity of their Facebook friends’ nationalities as evidence).
+			
+			\answer{
+			We selected three individuals from the betweenness centrality ranking—\textbf{Malcolm Turnbull}, \textbf{Hillary Clinton}, and \textbf{Betinho Gomes}—to analyze whether their roles as mathematical bridges correspond to real-world bridging positions across countries, parties, or international networks.
+			
+			\begin{enumerate}
+				\item \textbf{Malcolm Turnbull}  
+				\textbf{Real‑World Position:} Former Prime Minister of Australia (2015–2018), leader of the Liberal Party of Australia, and long‑standing Member of Parliament.:contentReference[oaicite:0]{index=0}  
+				\textbf{Bridging Role:} As Prime Minister, Turnbull acted as a key interlocutor between Australia and major global partners including the United States, United Kingdom, and Asia‑Pacific nations. His high betweenness likely reflects cross‑regional links—politically between differing factions within the Commonwealth and economically between advanced and emerging markets. Turnbull’s public profile and leadership in major trilateral and multilateral forums suggest social media ties that span diverse nationalities and political milieus, consistent with structural bridging.
+				
+				\item \textbf{Hillary Clinton}  
+				\textbf{Real‑World Position:} Former United States Secretary of State (2009–2013), U.S. Senator, and presidential candidate. Clinton has extensive diplomatic experience across Europe, Asia, the Middle East, and Africa.:contentReference[oaicite:1]{index=1}  
+				\textbf{Bridging Role:} Clinton’s role as Secretary of State placed her at the center of U.S. foreign policy and major international negotiations (e.g., United Nations engagements, NATO diplomacy). Her network position as a bridge likely captures ties not only to U.S. political elites but also to foreign governments, international NGOs, and global civil society — reflecting heterogeneous nationalities in her extended professional and public networks. High betweenness despite moderate degree suggests influence through strategic elite connections rather than broad grassroots ties.
+				
+				\item \textbf{Betinho Gomes}  
+				\textbf{Real‑World Position:} Brazilian politician; former member of the Chamber of Deputies representing Pernambuco, affiliated with the Brazilian Social Democracy Party. He served in both state and federal legislatures (2003–2006, 2011–2019).:contentReference[oaicite:2]{index=2}  
+				\textbf{Bridging Role:} Gomes occupies a different scale of bridging: within Brazilian domestic politics, he connects regional actors (Pernambuco political circles) to the national legislature and party coalitions. His betweenness suggests that, although not a global political figure like Clinton or Turnbull, he functions as a connector across factions or legislative blocs within Brazil’s party system and between urban/rural constituencies. In network terms this reflects bridging across sub‑communities rather than international political blocs.
+				
+			\end{enumerate}
+			
+			for facebook connection only the following section was analyzed and it goes like:
+			\begin{enumerate}
+				\item  Malcolm Turnbull’s Facebook connections demonstrate his structural role as a bridge across diverse media, political, and institutional networks. His friends and pages include national media outlets (e.g., ABC News, Media Watch, The Chaser, The Age), political figures and organizations (Liberal Party of Australia, Young Liberal Movement, Tony Abbott, Scott Morrison, Josh Frydenberg), international leaders (Barack Obama, David Cameron, Narendra Modi, Christine Lagarde), and civic and cultural institutions (CSIRO, Australian Red Cross Lifeblood, Woollahra Council, Penrith Panthers). This diversity reflects both domestic and international reach, spanning party lines, governmental agencies, media, and global networks, which supports his mathematical position as a high-betweenness node: Turnbull connects otherwise separate clusters, mediating information and influence across multiple communities.
+				\item  Hillary Clinton’s Facebook connections highlight her bridging role across political, educational, and advocacy networks. Her connections include key political figures (President Bill Clinton, Kamala Harris, Joe Biden), family and legacy links (Chelsea Clinton), and institutions promoting education and women’s rights (Wellesley College, Women’s Suffrage National Monument Foundation). This network reflects both domestic and international influence, spanning U.S. federal politics, gender equality advocacy, and educational leadership, reinforcing her high-betweenness position: she connects otherwise distinct clusters of political, familial, and institutional networks, mediating influence across multiple spheres.
+				\item  Betinho Gomes’ Facebook connections illustrate his role as a political and regional bridge within Brazil. His network includes local and state-level actors (e.g., Regivaldo Antonio, Raul Henry, Armando Monteiro, Fernando Bezerra Coelho), government institutions and programs (Ministério da Integração e do Desenvolvimento Regional, Programa Cidades Sustentáveis, Governo de Pernambuco), party affiliations (PSDB, Roberto Freire, Luciana Santos), and regional media and cultural organizations (Diario de Pernambuco, Cultura PE, Porta dos Fundos). Additionally, he connects to national political figures and media outlets (Lula, Dilma Rousseff, Aécio Neves, Época, VEJA). This diversity reflects his structural position as a high-betweenness node: despite a moderate number of direct connections, he links regional, state, and national political and civic clusters, effectively mediating influence across multiple communities within Brazil.
+			\end{enumerate}  
+			} 
+		\end{enumerate}
+	\end{subquestion}
+	\begin{subquestion}{Power in Local Structures (Efficiency \& Visualization)}
+		Closeness Centrality serves as an index for access speed and independence. The goal is to identify Efficient Monitors: politicians who achieve optimal geometric positioning with minimal communication cost
+		\begin{enumerate}
+			\item Calculations: Calculate Closeness Centrality and Normalized Degree for all nodes. List the Top
+			10 Closeness nodes.
+			\answer{
+			
 			}
 		\end{enumerate}
 	\end{subquestion}

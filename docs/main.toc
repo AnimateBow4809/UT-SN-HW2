@@ -1,2 +1,3 @@
 \contentsline {section}{\numberline {1}}{4}{}%
 \contentsline {subsection}{\numberline {(a)}Power Geometry (Quantity, Quality, and Access)}{4}{}%
+\contentsline {subsection}{\numberline {(b)}Information Bottlenecks}{7}{}%
