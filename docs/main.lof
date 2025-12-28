@@ -1,9 +1,1 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces linear plot and log-log plot scaling of average path length ⟨d⟩ vs network size N for Lattices and Random Networks..}}{6}{}%
-\contentsline {figure}{\numberline {2}{\ignorespaces comparing simulation results with the theoretical predictions shown in the lecture slide.}}{7}{}%
-\contentsline {figure}{\numberline {3}{\ignorespaces the adjacency matrix of the network showing how rules effect the distribution of degrees.}}{9}{}%
-\contentsline {figure}{\numberline {4}{\ignorespaces the out degree plot for the generated network showing both the data and how a line with slope $-0.95$ perfectly fits the data.}}{10}{}%
-\contentsline {figure}{\numberline {5}{\ignorespaces the in degree plot for the generated network showing both the data and how a line with slope $-0.95$ perfectly fits the data.}}{11}{}%
-\contentsline {figure}{\numberline {6}{\ignorespaces The heatmap plot for network density for both theoretical density and simulated density which shows they are aligned,similar and both saturate}}{12}{}%
-\contentsline {figure}{\numberline {7}{\ignorespaces The order parameter $S$ and The average size of isolated clusters $\langle s\rangle $ versus $\langle k\rangle $}}{13}{}%
-\contentsline {figure}{\numberline {8}{\ignorespaces $S$ versus $\langle k\rangle $ Plot for $N = 100$ , $N = 1 , 000$ , and $N = 10 , 000$ }}{14}{}%
-\contentsline {figure}{\numberline {9}{\ignorespaces $P(s)$ vs $s$ for our data,theory and fitted line on a Log-Log scale here $P(s)$ is the pmf not pdf }}{15}{}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Comparative analysis of node rankings in the Wiki-Vote network using HITS Authority and PageRank ($\alpha = 0.85$). The scatter plot, visualized on a Log-Log scale, illustrates a high degree of correlation between the two metrics; the red dashed line signifies perfect rank-order correspondence ($y = x$).}}{5}{}%
