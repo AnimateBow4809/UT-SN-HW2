@@ -119,18 +119,26 @@
 			\answer{
 			We computed the \emph{Betweenness Centrality} for all nodes in the network, capturing the extent to which a node lies on the shortest paths between others and thus acts as a broker or bridge. The top 10 nodes based on betweenness centrality, along with their corresponding degree ranks, are reported below.
 			
-			\begin{enumerate}
-				\item Barack Obama (\( \text{Betweenness Rank} = 1, \ \text{Degree Rank} = 6 \))
-				\item Hillary Clinton (\( \text{Betweenness Rank} = 2, \ \text{Degree Rank} = 145.5 \))
-				\item Angela Merkel (\( \text{Betweenness Rank} = 3, \ \text{Degree Rank} = 7 \))
-				\item Justin Trudeau (\( \text{Betweenness Rank} = 4, \ \text{Degree Rank} = 27 \))
-				\item Malcolm Turnbull (\( \text{Betweenness Rank} = 5, \ \text{Degree Rank} = 35.5 \))
-				\item Manfred Weber (\( \text{Betweenness Rank} = 6, \ \text{Degree Rank} = 1 \))
-				\item Peter Tauber (\( \text{Betweenness Rank} = 7, \ \text{Degree Rank} = 38 \))
-				\item Betinho Gomes (\( \text{Betweenness Rank} = 8, \ \text{Degree Rank} = 122 \))
-				\item Niels Annen (\( \text{Betweenness Rank} = 9, \ \text{Degree Rank} = 8 \))
-				\item Boris Johnson (\( \text{Betweenness Rank} = 10, \ \text{Degree Rank} = 679.5 \))
-			\end{enumerate}
+			\begin{center}
+				\begin{tabular}{lcc}
+					\hline
+					\textbf{Real Name} & \textbf{Betweenness Rank} & \textbf{Degree Rank} \\
+					\hline
+					Barack Obama      & 1  & 6 \\
+					Hillary Clinton   & 2  & 145.5 \\
+					Angela Merkel     & 3  & 7 \\
+					Justin Trudeau    & 4  & 27 \\
+					Malcolm Turnbull  & 5  & 35.5 \\
+					Manfred Weber     & 6  & 1 \\
+					Peter Tauber      & 7  & 38 \\
+					Betinho Gomes     & 8  & 122 \\
+					Niels Annen       & 9  & 8 \\
+					Boris Johnson     & 10 & 679.5 \\
+					\hline
+				\end{tabular}
+			\end{center}
+			
+			
 			}
 			\item  Rank Gap Analysis: Examine the table for individuals with Top-Tier Betweenness (Top 10) but Lower
 			Degree. These individuals are mathematical Bridges. Explain the structural differ-
@@ -189,8 +197,97 @@
 			\item Calculations: Calculate Closeness Centrality and Normalized Degree for all nodes. List the Top
 			10 Closeness nodes.
 			\answer{
-			
+				Closeness centrality and normalized degree were computed for all nodes in the network. 
+				Table below reports the top 10 politicians ranked by closeness centrality, 
+				representing the most central actors in terms of average shortest-path distance to all other nodes 
+				(the geometric heart of the network).
+				
+				\begin{center}
+					\begin{tabular}{lcc}
+						\hline
+						\textbf{Real Name} & \textbf{Closeness} & \textbf{Normalized Degree} \\
+						\hline
+						Barack Obama        & 0.3522 & 0.0344 \\
+						Michael Roth        & 0.3093 & 0.0205 \\
+						Niels Annen         & 0.3074 & 0.0311 \\
+						Tanja Fajon         & 0.3020 & 0.0079 \\
+						Malcolm Turnbull    & 0.2996 & 0.0198 \\
+						Mariano Rajoy Brey  & 0.2993 & 0.0112 \\
+						Achim Post          & 0.2990 & 0.0221 \\
+						Peter Tauber        & 0.2968 & 0.0190 \\
+						Dietmar Nietan      & 0.2939 & 0.0234 \\
+						Hillary Clinton     & 0.2938 & 0.0107 \\
+						\hline
+					\end{tabular}
+				\end{center}
+				
+				These nodes form the geometric core of the network, as they can reach all other nodes with the 
+				smallest average number of steps. Notably, high closeness does not necessarily coincide with a high 
+				normalized degree, indicating that strategic positioning in the network is not solely determined 
+				by direct connectivity.
 			}
+			\item Statistical Exploration: Plot Normalized Degree (X-axis) vs. Closeness Centrality (Y-axis).
+			\answer{
+				We plotted \emph{Normalized Degree Centrality} against \emph{Closeness Centrality} for all nodes in the network to examine how local connectivity relates to global accessibility. The resulting scatter plot is shown in Figure~\ref{fig:q4_c_plot}.
+				
+				\textbf{Distribution Analysis:}
+				The distribution exhibits a dense clustering in the lower-left corner, transitioning into a sparse "efficiency frontier" along the upper boundary. 
+				\begin{itemize}
+					\item \textbf{The Core Cluster:} The vast majority of nodes reside at low values for both metrics, indicating a network dominated by peripheral actors with limited reach.
+					\item \textbf{Diminishing Returns:} We observe a logarithmic-like trend where Closeness Centrality increases sharply with initial gains in Degree, but levels off as Normalized Degree exceeds $0.02$. This suggests that after a certain threshold of popularity, adding more connections provides negligible improvements to an actor's "closeness" to the rest of the network.
+					\item \textbf{The Efficiency Gap:} The most notable feature is the vertical spread at low degree values. Nodes with identical degree counts show vastly different closeness scores, highlighting that \emph{who} one is connected to is mathematically more significant for global access than \emph{how many} connections one possesses.
+				\end{itemize}
+				
+				\textbf{Structural Liaisons:}
+				The \textbf{top-left quadrant} identifies actors who circumvent the typical correlation between quantity and access. As seen in the table below, these individuals occupy structurally advantageous positions, serving as efficient access points rather than highly connected hubs.
+				
+				\begin{center}
+					\begin{tabular}{lcc}
+						\hline
+						\textbf{Real Name} & \textbf{Closeness Rank} & \textbf{Degree Rank} \\
+						\hline
+						Hillary Clinton & 10.0 & 145.5 \\
+						Bernd Lange     & 14.0 & 118.0 \\
+						Gianni Pittella & 18.0 & 1236.5 \\
+						\hline
+					\end{tabular}
+				\end{center}
+				
+				The placement of \textbf{Gianni Pittella} is particularly significant; his high Closeness rank relative to a very low Degree rank suggests he acts as a "bridge" to high-degree hubs, allowing him to reach the network core with minimal direct social ties.
+			}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.85\textwidth,keepaspectratio]{imgs/q4_c_plot.png}
+				\caption{Scatter plot of \emph{Normalized Degree Centrality} vs. \emph{Closeness Centrality}. The distribution highlights a dense peripheral core and a sparse set of efficient structural liaisons in the upper-left quadrant.}
+				\label{fig:q4_c_plot}
+			\end{figure}
+			\item To understand the network architecture surrounding these individuals, visualize the Ego Network of one selected politician. Morphological Analysis: Is the central individual surrounded by a dense cluster, or are their neighbors dispersed across separate branches? How does this visual structure justify the high Closeness score?
+			\answer{
+				We selected \textbf{Hillary Clinton} as the representative politician from the top-left quadrant of the Normalized Degree vs. Closeness plot. 
+				The ego network shown in Figure~\ref{fig:q4_c2_plot} exhibits a hub-and-spoke morphology, where the central individual connects directly to a large number of otherwise weakly interconnected neighbors. Rather than forming a dense local cluster, the neighborhood is dispersed across multiple shallow branches. 
+				This structure results in very short average path lengths from the central node to the rest of the network, visually and structurally justifying her high closeness centrality score.
+			}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.85\textwidth,keepaspectratio]{imgs/q4_c2_plot.pdf}
+				\caption{Ego network of \textbf{Hillary Clinton}. The visualization shows a hub-and-spoke structure with dispersed neighbors rather than a dense cluster, explaining her high Closeness Centrality despite moderate degree.}
+				\label{fig:q4_c2_plot}
+			\end{figure}
+			\item Contextual Analysis: Based on their real-world titles, explain why their job description requires them to be at the geometric center of the graph. Contrast their structural position with Political Hubs (like Barack Obama, who possesses both High Degree and High Closeness).
+			\answer{
+				The politicians in the top-left quadrant—\textbf{Hillary Clinton}, \textbf{Bernd Lange}, and \textbf{Gianni Pittella}—occupy positions of high closeness but relatively low degree. Their real-world roles, such as senior legislators, committee chairs, or influential policymakers, require them to efficiently access and influence a wide range of other actors without maintaining numerous direct connections. Being at the geometric center allows them to reach most nodes in the network quickly, facilitating coordination, negotiation, and information flow across political factions.
+				
+				For example:
+				\begin{itemize}
+					\item \textbf{Hillary Clinton} (Closeness Rank 10, Degree Rank 145.5) – Former Secretary of State and Senator, able to access multiple political spheres efficiently.  
+					\item \textbf{Bernd Lange} (Closeness Rank 14, Degree Rank 118) – European Parliament member involved in international trade policy, requiring rapid access to diverse committees.  
+					\item \textbf{Gianni Pittella} (Closeness Rank 18, Degree Rank 1236.5) – Senior MEP coordinating across numerous legislative areas, benefiting from efficient network positioning despite lower local connectivity.
+				\end{itemize}
+				
+				In contrast, political hubs like \textbf{Barack Obama} combine high closeness with high degree, maintaining many direct connections while also having short paths to the rest of the network. While top-left quadrant politicians excel in efficiency of access and strategic positioning, hubs excel in both visibility and connectivity, making them highly influential across multiple network layers.
+			}
+			
 		\end{enumerate}
+		
 	\end{subquestion}
 \end{question}

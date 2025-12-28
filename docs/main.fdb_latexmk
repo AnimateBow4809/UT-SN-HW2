@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1766785685.24572 "main.tex" "main.pdf" "main" 1766785686.76213 0
+["pdflatex"] 1766939175.89174 "main.tex" "main.pdf" "main" 1766939177.57934 0
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1765123783.19319 339773 a1c68872d3dc0a4bee66a5dedbc28f32 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1765126772.53169 13242906 d6526b630f58492448e4774fa5792415 ""
   "D:/Appa/MiKTeX/fonts/enc/dvips/roboto/rbto_b5rac7.enc" 1576067631 3075 0696ceafc85b8352a913efb9ba64bc17 ""
@@ -193,14 +193,16 @@
   "D:/Appa/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "D:/Appa/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "imgs/q4_a_plot.png" 1766781557.86944 94063 d2b1f4185e0270750b101ebd1ea4175f ""
-  "main.aux" 1766785686.46489 846 8edbe90b4b317b22a85fda1d424a9781 "pdflatex"
-  "main.lof" 1766785686.46489 172 18ab1400fe692e1280a6f7a3622d9f1d "pdflatex"
+  "imgs/q4_c2_plot.pdf" 1766935463.90746 7790 6fa30ce24a1ba2f55b3eb3a764272957 ""
+  "imgs/q4_c_plot.png" 1766933960.57178 88370 48ef86d837d38e5b2c84ed097edb93ed ""
+  "main.aux" 1766939177.27414 1839 f6dbd591c1bbd5fbcf23fbe7245031bf "pdflatex"
+  "main.lof" 1766939177.27414 725 f1f58abe547add49b99cba3cac5ecb92 "pdflatex"
   "main.tex" 1766770995.49898 2326 6331be59ecb2b751a9b8010f712a0056 ""
-  "main.toc" 1766785686.46489 220 884c4d3b5f006ff2593a1285bbf6bb24 "pdflatex"
+  "main.toc" 1766939177.27414 328 a8c3d9e649e08e5c0a7524d35e7b2e3b "pdflatex"
   "questions/q1.tex" 1766770995.49998 0 d41d8cd98f00b204e9800998ecf8427e ""
   "questions/q2.tex" 1766771009.38612 0 d41d8cd98f00b204e9800998ecf8427e ""
   "questions/q3.tex" 1766775280.84188 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "questions/q4.tex" 1766785683.95013 17487 97ea31ebac3f2fe0e34208c80af6673f ""
+  "questions/q4.tex" 1766939172.23068 25139 1a994144df01ee88c434ac6414a3d4af ""
   "questions/q5.tex" 1766747670.0667 0 d41d8cd98f00b204e9800998ecf8427e ""
   "structure.tex" 1765842049.03845 7828 fe8277f3e8b293158b72005ec17ef45d ""
   (generated)
