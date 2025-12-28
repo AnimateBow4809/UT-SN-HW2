@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}}{4}{}%
+\contentsline {subsection}{\numberline {(a)}Explain what each of these functions represents (what information they provide about the network). In doing so, describe what a high value versus a low value of each function indicates.}{4}{}%
+\contentsline {subsection}{\numberline {(b)}Determine which of these functions is a Structural Index (SI) and which ones are not. Provide a brief justification for your answer}{5}{}%
+\contentsline {section}{\numberline {2}}{5}{}%
+\contentsline {subsection}{\numberline {(a)}Consider the below network.}{5}{}%
+\contentsline {subsection}{\numberline {(b)}Consider the below network.}{7}{}%
+\contentsline {subsection}{\numberline {(c)}Consider an undirected tree of n nodes. A particular edge in the tree joins node 1 and 2 and divides the tree into two disjoint regions of n1 and n2 nodes, as sketched below:}{8}{}%
+\contentsline {section}{\numberline {3}}{9}{}%
+\contentsline {subsection}{\numberline {(a)}Given a directed graph G = ( V, E ) , the stress centrality of a node and an edge are defined as::}{9}{}%
+\contentsline {subsection}{\numberline {(b)}Explain the relationship between the stress centrality $C_s$ of a node $v$ and the stress centrality values of the edges incident to $v$ (denoted by $\Gamma (v)$). Here, $\Gamma (v)$ represents the set of edges that have $v$ as one of their endpoints.}{9}{}%
+\contentsline {section}{\numberline {4}}{10}{}%
+\contentsline {subsection}{\numberline {(a)}Power Geometry (Quantity, Quality, and Access)}{10}{}%
+\contentsline {subsection}{\numberline {(b)}Information Bottlenecks}{13}{}%
+\contentsline {subsection}{\numberline {(c)}Power in Local Structures (Efficiency \& Visualization)}{16}{}%
+\contentsline {subsection}{\numberline {(d)}Bonacich Power Dynamics}{20}{}%
+\contentsline {section}{\numberline {5}}{22}{}%
+\contentsline {subsection}{\numberline {(a)}Ranking Comparison (HITS vs. PageRank)}{22}{}%
+\contentsline {subsection}{\numberline {(b)}Rank Stability Analysis}{25}{}%
