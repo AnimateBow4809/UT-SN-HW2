@@ -1,4 +1,0 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces scatter plot \emph {Normalized Degree Centrality} vs \emph {Eigenvector Centrality} showing positive deviants.}}{6}{}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Scatter plot of \emph {Normalized Degree Centrality} vs. \emph {Closeness Centrality}. The distribution highlights a dense peripheral core and a sparse set of efficient structural liaisons in the upper-left quadrant.}}{12}{}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Ego network of \textbf {Hillary Clinton}. The visualization shows a hub-and-spoke structure with dispersed neighbors rather than a dense cluster, explaining her high Closeness Centrality despite moderate degree.}}{13}{}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Slope Chart tracking the rank trajectories of key nodes across the neutral, supportive, and suppressive Bonacich power regimes.}}{16}{}%
