@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.7)  28 DEC 2025 19:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.7)  28 DEC 2025 20:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -938,65 +938,72 @@ en-dricks shows low close-
 
 [6 <./imgs/q4_a_plot.png>]
 
-[7]
-Underfull \hbox (badness 1668) in paragraph at lines 191--191
-[]\T1/Roboto-LF/bold/n/10.95 Hillary Clin-ton Real[]World Po-si-tion: \T1/Robot
-o-LF/light/n/10.95 For-mer United States Sec-re-tary of
- []
+LaTeX Warning: Reference `tab:top10_betweenness' on page 7 undefined on input l
+ine 146.
 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.146 			}
+          
+? 
+! Emergency stop.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.146 			}
+          
+End of file on the terminal!
 
-
-[8]
-
-[9]
-
-[10]
-<imgs/q4_c_plot.png, id=81, 729.927pt x 507.3354pt>
-File: imgs/q4_c_plot.png Graphic file (type png)
-<use imgs/q4_c_plot.png>
-Package pdftex.def Info: imgs/q4_c_plot.png  used on input line 260.
-(pdftex.def)             Requested size: 386.96027pt x 268.95615pt.
-
-
-[11]
-<imgs/q4_c2_plot.pdf, id=85, 614.295pt x 794.97pt>
-File: imgs/q4_c2_plot.pdf Graphic file (type pdf)
-<use imgs/q4_c2_plot.pdf>
-Package pdftex.def Info: imgs/q4_c2_plot.pdf  used on input line 272.
-(pdftex.def)             Requested size: 386.96027pt x 500.7731pt.
-
-
-[12 <./imgs/q4_c_plot.png>]
-
-[13 <./imgs/q4_c2_plot.pdf>]) (questions/q5.tex)
-
-[14] 
-enddocument/afterlastpage (AED): lastpage setting LastPage.
-(main.aux)
- ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-07-20>
- ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 24562 strings out of 468133
- 514872 string characters out of 5445149
- 927895 words of memory out of 5000000
- 52716 multiletter control sequences out of 15000+600000
+ 24519 strings out of 468133
+ 513834 string characters out of 5445149
+ 920203 words of memory out of 5000000
+ 52678 multiletter control sequences out of 15000+600000
  705032 words of font info for 90 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 103i,12n,108p,516b,1212s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
+panion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 			}
+          
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.148 			}
+          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 24523 strings out of 468133
+ 514028 string characters out of 5445149
+ 920123 words of memory out of 5000000
+ 52680 multiletter control sequences out of 15000+600000
+ 710253 words of font info for 92 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 103i,12n,108p,516b,1212s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
+ds of memory out of 5000000
+ 52735 multiletter control sequences out of 15000+600000
+ 706386 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,12n,108p,995b,1218s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Appa/MiKTeX/fonts/type1/google/roboto/Roboto-Bold.pfb><D:/Appa/MiKTeX/fon
 ts/type1/google/roboto/Roboto-Light.pfb><D:/Appa/MiKTeX/fonts/type1/google/robo
-to/Roboto-LightItalic.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on main.pdf (14 pages, 298353 bytes).
+to/Roboto-LightItalic.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10
+.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Appa/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Appa/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr8.pfb><D:/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:
+/Appa/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (16 pages, 486573 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
+ 158 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
 

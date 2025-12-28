@@ -286,6 +286,70 @@
 				
 				In contrast, political hubs like \textbf{Barack Obama} combine high closeness with high degree, maintaining many direct connections while also having short paths to the rest of the network. While top-left quadrant politicians excel in efficiency of access and strategic positioning, hubs excel in both visibility and connectivity, making them highly influential across multiple network layers.
 			}
+		\end{enumerate}
+	\end{subquestion}
+	
+	\begin{subquestion}{Bonacich Power Dynamics}
+		In this section, the role of Bonacich power in the political network is examined. First, compute the largest eigenvalue of the adjacency matrix to ensure convergence. Then,calculate power for three scenarios:
+		\begin{enumerate}
+			\item Spectral Calculation and Power Regimes: Calculate the centrality scores under the following conditions:
+			\answer{
+				The largest eigenvalue of the adjacency matrix was computed to ensure convergence of the Bonacich power calculation:
+				
+				\[
+				\lambda_{\text{max}} = 60.6432, \quad \text{Convergence Bound } \frac{1}{\lambda_{\text{max}}} = 0.0165
+				\]
+				
+				We define $\kappa = 1 / \lambda_{\text{max}}$ and calculate the Bonacich power centrality under three scenarios:
+				
+				\begin{itemize}
+					\item \textbf{Neutral Regime} ($\beta = 0$): Centrality depends purely on direct connections without reinforcement or suppression from neighbors.
+					\item \textbf{Supportive Regime} ($\beta = 0.5 \cdot \kappa \approx 0.00825$): Positive influence from neighbors increases the centrality of nodes connected to already powerful nodes.
+					\item \textbf{Suppressive Regime} ($\beta = -0.5 \cdot \kappa \approx -0.00825$): Connections to powerful neighbors reduce a node’s centrality, emphasizing nodes that are less connected to influential actors.
+				\end{itemize}
+				
+				The Bonacich power centrality is then calculated using:
+				
+				\[
+				\mathbf{c}(\alpha, \beta) = (\mathbf{I} - \beta \mathbf{A})^{-1} \mathbf{1} \cdot \alpha
+				\]
+				
+				where $\alpha$ is a scaling factor (commonly set to 1), $\mathbf{A}$ is the adjacency matrix, and $\beta$ is set according to each regime. Each scenario highlights different structural advantages within the political network.
+			}
+			\item Structural Classification and Visual Analysis:
+			Compare node rankings obtained under the different Bonacich power parameter settings (neutral, supportive, and suppressive). Perform the analysis in the following steps:
+			\answer{
+				To analyze how nodes respond to changes in the Bonacich power parameter $\beta$, we tracked the rank trajectories of key nodes across the three regimes (neutral, supportive, suppressive) using a slope chart (Figure~\ref{fig:q4_d_plot}).
+				
+				Based on both the quantitative rank data and visual trends, nodes were categorized into three structural roles:
+				
+				\begin{center}
+					\begin{tabular}{lc}
+						\hline
+						\textbf{Structural Role} & \textbf{Count of Nodes} \\
+						\hline
+						Stable Actor       & 3112 \\
+						Power Inhibitor    & 1389 \\
+						Power Amplifier    & 1195 \\
+						\hline
+					\end{tabular}
+				\end{center}
+				
+				\textbf{Interpretation:}
+				\begin{itemize}
+					\item \textbf{Stable Actors}: These nodes exhibit minimal change in rank across the three regimes. Their centrality is largely determined by local connections, and they are neither strongly reinforced nor diminished by neighbors.  
+					\item \textbf{Power Amplifiers}: Nodes in this category experience substantial rank increases under the supportive regime ($\beta > 0$). Their structural position—typically connected to other influential nodes—allows them to benefit from positive feedback effects, amplifying their overall network power.  
+					\item \textbf{Power Inhibitors}: These nodes experience significant rank drops under the suppressive regime ($\beta < 0$). They are often linked to highly central neighbors, which in this regime reduces their relative power. This reflects the attenuation effect of being connected to already powerful nodes when influence is inversely weighted.
+				\end{itemize}
+				
+				Overall, the slope chart and classification reveal how network structure modulates power: nodes may gain or lose influence not only due to their direct connections but also through the amplification or inhibition transmitted by neighbors, illustrating the dynamic nature of Bonacich power in complex political networks.
+			}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.85\textwidth,keepaspectratio]{imgs/q4_d_plot.png}
+				\caption{Slope Chart tracking the rank trajectories of key nodes across the neutral, supportive, and suppressive Bonacich power regimes.}
+				\label{fig:q4_d_plot}
+			\end{figure}
 			
 		\end{enumerate}
 		

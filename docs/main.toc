@@ -2,3 +2,4 @@
 \contentsline {subsection}{\numberline {(a)}Power Geometry (Quantity, Quality, and Access)}{4}{}%
 \contentsline {subsection}{\numberline {(b)}Information Bottlenecks}{7}{}%
 \contentsline {subsection}{\numberline {(c)}Power in Local Structures (Efficiency \& Visualization)}{10}{}%
+\contentsline {subsection}{\numberline {(d)}Bonacich Power Dynamics}{14}{}%
