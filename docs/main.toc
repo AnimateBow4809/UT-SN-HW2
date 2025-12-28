@@ -1,4 +1,0 @@
-\contentsline {section}{\numberline {1}}{4}{}%
-\contentsline {subsection}{\numberline {(a)}Consider the below network.}{4}{}%
-\contentsline {subsection}{\numberline {(b)}Consider the below network.}{5}{}%
-\contentsline {subsection}{\numberline {(c)}Consider an undirected tree of n nodes. A particular edge in the tree joins node 1 and 2 and divides the tree into two disjoint regions of n1 and n2 nodes, as sketched below:}{6}{}%
